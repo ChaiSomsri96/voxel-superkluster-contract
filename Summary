@@ -1,0 +1,79 @@
+1. NFT sale
+1-1 List For Sale
+    * Seller can set USD price or VXL price to the item when he lists his one.
+      The important point is that even if you set the price of NFT to VXL, the price of NFT is based on USD.
+      This means VXL token amount that buyer should pay will be changed steadily according to rate between USD and VXL.
+    * Seller can also set sale end date.
+      After the end of the sale date, the NFT automatically changes to [not for sale] status.
+    * Seller can reserve an item to a specific buyer.
+      Except this specific buyer, no one else can purchase this item.
+    * If seller lists item, seller can find this item under [On Sale] tab in seller profile page.
+      This item can be searched when you choose [Buy Now] for SaleType in explorer page.
+    * Seller only pays gas fee one time per one collection to approve marketplace and doesn't pay gas fee else.
+
+1-2 Buy Now
+    * Buyer can purchase item using vxl tokens.
+      But there is an option that buyer can purchase item using eth as well as vxl tokens.
+      If you don't hold vxl or ethereum, you won't be able to purchase NFT item.
+    * If Nft was created in Superkluster and is first sale, 
+      Buyer should pay gas fee for lazymint.
+
+1-3 Offer
+    * The buyer may make offer to any items, even if they are [not for sale].
+    * Buyer can use only vxl tokens to make offer.
+    * Buyer can make offer with amount less than which he holds. 
+      If he tries to make an offer for a larger amount, the platform will reject it.
+      If he uses a vxl token on another platform to hold a vxl token less than the offer amount, 
+      Marketplace automatically deletes his offer.
+    * The seller (or NFT holder) can choose one of offers and accept and complete sale.
+      In this case , seller pays gas fee for sale transaction.
+
+1-4 Auction (List for auction)
+    * Seller lists one item for auction with starting bid price.
+      He can set auction period.(auction start date and auction end date)
+    * Until auction starts , nobody can't place a bid on item, even though seller lists item for auction.
+    * When an auction starts, users must bid at a price greater than the minimum auction price.
+    * During auction period, user can cancel his bid.
+    * When auction period ends, the bidder who bids max price will become winner.
+    * The platform will give 7 days for seller to accept because seller can't accept immediately due to high gas fee or insufficient eth balance.
+      If seller doesn't accept winner's bid in first 5 days, winner can pay gas fee to complete his bid for the last 2 days.
+      If bid winner really wants to buy this item, he won't hesitate to pay even gas fee.
+      So platform will give chance to winner to complete transaction for 2 days.
+
+      When the seller or bid winner completes the auction transaction, the auction is completely over.
+      If the seller or bid winner fails to complete the auction transaction for 7 days after the auction ends, the auction will fail and platform 
+      will give warning to seller and bid winner.
+      This warning will affect their activities in our superkluster marketplace.
+
+1-5 Cart Purchase
+    * Platform provides cart for users to save gas fee and buy several items at the same moment in one transaction.
+    * User can put only items which are listed for sale.
+      And the items also should be erc721 item or erc1155 item with supply quantity 1 per each tokenid.
+    * Buyer can purchase items from the cart using vxl token or eth.
+
+2. Other feature
+    2-1 lazy mint feature
+    2-2 create NFT in superkluster - supported file types (PNG, JPG, GIF, WEBP , MP4 , FBX , GLB , OBJ , GLTF), max-size: 100MB
+    We are able to create both ERC721 item or ERC1155 item.
+    2-3 create Collection or import Collection 
+      You can import external NFT collection using NFT contract address and platform will get image and metadata from on-chain tokenURIs and 
+      store them on AWS S3 to show assets quickly.
+      There is compress image cron service in platform so that all images will be compressed , which are shown in explorer page.
+    2-4 Batch Transfer feature
+      NFT holder can transfer his several items to other user in one transaction.
+      This will save sender's gas fee.
+    2-5 Royalty feature
+      Marketplace supports EIP-2981 royalty of external NFT collection.
+      Each NFT item which is created in superkluster can have its own royalty fee and royalty receiver address , 
+      and if buyer is not royalty receiver address, royalty will always be applied in sale transaction.
+    2-6 NFT share & NFT transfer & NFT metadata reload (only holder can do this)
+    2-7 User can report NFT item.
+    
+The features else are similar with general marketplaces.
+
+    
+
+
+
+
+
