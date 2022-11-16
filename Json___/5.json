@@ -1,0 +1,17 @@
+{
+    "name":"Darwin Nunez",
+    "description":"This is Darwin Nunez.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmbGuiNurbBcw8CzaFcA1Ba7aWTdTZAwUKL5K4Rpq7xLpr",
+    "attributes": [
+        {"trait_type":"Club","value":"LiverPool FC"},
+        {"trait_type":"Nation","value":"Uruguay"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Weak"},
+        {"trait_type":"Speed","value":"Very Fast"},
+        {"trait_type":"Goal","value":"110", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"90", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"86", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"79", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"82", "display_type": "number", "max_value": "99"}
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name":"Antony",
+    "description":"This is Antony.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmSy6XsL7NgrGteWighaKKJWkZuNe4qdesH8HJZNrDwUR3",
+    "attributes": [
+        {"trait_type":"Club","value":"ManchesterUnited FC"},
+        {"trait_type":"Nation","value":"Brazil"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Very Weak"},
+        {"trait_type":"Speed","value":"Fast"},
+        {"trait_type":"Goal","value":"80", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"39", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"82", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"88", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"76", "display_type": "number", "max_value": "99"}
+    ]
+}

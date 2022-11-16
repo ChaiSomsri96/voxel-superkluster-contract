@@ -1,0 +1,17 @@
+{
+    "name":"Erling Haaland",
+    "description":"This is Erling Haaland.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmPYFrsdw1QNizsqg5BkXzBW2kQjKDXqRfuChAJb1NBsbc",
+    "attributes": [
+        {"trait_type":"Club","value":"Mancity"},
+        {"trait_type":"Nation","value":"Denmark"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Strong"},
+        {"trait_type":"Speed","value":"Fast"},
+        {"trait_type":"Goal","value":"238", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"92", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"90", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"75", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"90", "display_type": "number", "max_value": "99"}
+    ]
+}

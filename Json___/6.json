@@ -1,0 +1,17 @@
+{
+    "name":"Vinicius jr",
+    "description":"This is Vinicius jr.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmUE7nTT9vUhFXkHN4sfEcPZt2YYdQX3wbnAFjDnHv8B2W",
+    "attributes": [
+        {"trait_type":"Club","value":"RealMadrid FC"},
+        {"trait_type":"Nation","value":"Brazil"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Strong"},
+        {"trait_type":"Speed","value":"Very Fast"},
+        {"trait_type":"Goal","value":"78", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"88", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"92", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"96", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"82", "display_type": "number", "max_value": "99"}
+    ]
+}

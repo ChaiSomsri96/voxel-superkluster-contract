@@ -1,0 +1,34 @@
+SK contract Royalty Options
+1. Create NFT on SK marketplace / Create Partner API NFT collection using SK Contract 
+   i. Toggle OFF (default) to allow for nft to be placed on any nft marketpalce 
+   which has no royalty / or optional royalty policy
+   ii. Toggle ON to only allow for nft to be executed on nft marketplaces 
+   which allows for nft royalties ie NFT can be onboarded onto magic eden, 
+   if upon transaction, the buyer chooses optional to pay for royalties, 
+   than the sale will execute, but if the buyer chooses not to do so, then the nft sale won't execute 
+
+SK contract conditions
+1. must set fixed royalty amount from the beginning before one NFT item has been sold
+2. can reduce % of original royalty set- but never increase based on original % set for royalty
+3. max 25% royalties accepted for SK contract
+
+Importing external NFT contract to SK
+1. max royalty accepted on SK 25%
+2. can reduce % royalty to less than contract set original royalty % anytime
+I would like for you to consider this for royalty
+does anyone have knowledge with how royalties work on other nft marketplaces
+my understanding is the contract enables royalties
+and then the nft marketplace is where you set royalties for secondary
+it doesn't automatically happen - as the nft marketplace is set at 0% - only when you important contract - then you adjust royalties on collection
+
+Speaking to one of the partner devs
+He said that on some nft marketplaces - the royalty set on the contract is automatically applied - 
+so they can adjust directly on the contract ie rarible
+But on opensea - you need to do it manually on opensea nft marketplace.
+https://opensea.io/collection/xoomojis
+- for example dev set 4.5% on the nft contract - but needed to go onto opensea and set it to 4.5%
+Yep. You can read it in the contract. It's verified. The value is set to 450 because decimals make solidity freak out.
+I actually haven't tried setting it to any other value on opensea. I set it to 4.5% to keep everything consistent.
+Not sure what would happen if I change the value. The way opensea works may override it because the eip2981 isn't automatically enforced. As far as I know it just exists to inform marketplaces.
+I'm pretty sure marketplaces do not have to obey the standard.
+

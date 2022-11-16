@@ -1,0 +1,16 @@
+{
+    "name":"Bukayo Saka",
+    "description":"This is Bukayo Saka.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmZZu23cWXnW8UxCUGXKRf9ZigFZwH72NYwG8r8yhmKuSR",
+    "attributes": [
+        {"trait_type":"Club","value":"Arsenal FC"},
+        {"trait_type":"Nation","value":"England"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Strong"},
+        {"trait_type":"Speed","value":"Fast"},
+        {"trait_type":"Goal","value":"82", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"112", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"89", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"85", "display_type": "number", "max_value": "99"}
+    ]
+}

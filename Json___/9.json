@@ -1,0 +1,17 @@
+{
+    "name":"Mason Mount",
+    "description":"This is Mason Mount.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmeNr9qY9PwynHya4PbCNX7netNQmYay1s4NTpq3uupY2N",
+    "attributes": [
+        {"trait_type":"Club","value":"Chelsea FC"},
+        {"trait_type":"Nation","value":"England"},
+        {"trait_type":"Position","value":"Midfielder"},
+        {"trait_type":"Mental","value":"Weak"},
+        {"trait_type":"Speed","value":"Not Fast"},
+        {"trait_type":"Goal","value":"80", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"99", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"85", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"80", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"86", "display_type": "number", "max_value": "99"}
+    ]
+}

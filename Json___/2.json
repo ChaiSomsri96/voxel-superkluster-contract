@@ -1,0 +1,17 @@
+{
+    "name":"Jamal Musiala",
+    "description":"This is Jamal Musiala.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmTjJCFGthvDMQcFsMYYiJJKdwRZ5fMz6qvHuNbTkYuhWK",
+    "attributes": [
+        {"trait_type":"Club","value":"Bayern Munhen FC"},
+        {"trait_type":"Nation","value":"Germany"},
+        {"trait_type":"Position","value":"Second Striker"},
+        {"trait_type":"Mental","value":"Weak"},
+        {"trait_type":"Speed","value":"Not Fast"},
+        {"trait_type":"Goal","value":"65", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"88", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"67", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"96", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"65", "display_type": "number", "max_value": "99"}
+    ]
+}

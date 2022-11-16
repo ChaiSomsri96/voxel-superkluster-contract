@@ -1,0 +1,17 @@
+{
+    "name":"Ansu Fati",
+    "description":"This is Ansu Fati.",   
+    "image":"https://voxelxrinkeby.mypinata.cloud/ipfs/QmQXYD2X3WikjVuuCCQ4zfrWzL3uFtBDwd7Y56dZh6mYRk",
+    "attributes": [
+        {"trait_type":"Club","value":"FC Barcelona"},
+        {"trait_type":"Nation","value":"Spain"},
+        {"trait_type":"Position","value":"Striker"},
+        {"trait_type":"Mental","value":"Weak"},
+        {"trait_type":"Speed","value":"Fast"},
+        {"trait_type":"Goal","value":"112", "display_type": "progress", "max_value": "300"},
+        {"trait_type":"Assist","value":"82", "display_type": "progress", "max_value": "200"},
+        {"trait_type":"Stamina","value":"90", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Dribble","value":"88", "display_type": "number", "max_value": "99"},
+        {"trait_type":"Shooting","value":"87", "display_type": "number", "max_value": "99"}
+    ]
+}
